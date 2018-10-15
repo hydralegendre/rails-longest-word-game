@@ -1,0 +1,7 @@
+<h1>Games#score</h1>
+<p>Find me in app/views/games/score.html.erb</p>
+<p><%= params[:word] %></p>
+
+<% if @scenario == 'out of grid' %>
+<p><% params[:word].capitalize %> is out of grid</p>
+<% end %>

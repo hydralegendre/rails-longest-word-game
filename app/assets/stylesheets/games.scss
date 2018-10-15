@@ -1,0 +1,38 @@
+
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.case {
+   background-color: #36afad;
+   padding: 20px;
+   border: 2px solid gray;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   width: 30px;
+   text-align: center;
+}
+
+.case:hover {
+  background-color: white;
+  color: black;
+}
+
+.wrapper {
+  color: white;
+  display: flex;
+  align-item: center;
+  justify-content: space-around;
+}
+
+p {
+  color: green;
+}
+
+
+input {
+  border: 1px gray solid;
+  height: 40px;
+  border-radius: 10px;
+  margin: 0;
+}
