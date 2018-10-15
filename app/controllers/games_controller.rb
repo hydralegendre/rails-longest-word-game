@@ -11,6 +11,8 @@ class GamesController < ApplicationController
     unless array_letter.all? { |letter| params[:grid].include?(letter) }
       @scenario = 'out of grid'
     end
+
+   @scenario
   end
 
   #   The word is valid, but not an english word.
